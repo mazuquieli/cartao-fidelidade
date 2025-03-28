@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+  .content {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .client-card {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .loyalty-card {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .history-card {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .progress-card {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .stamp {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stamp img {
+    width: 24px;
+    height: 24px;
+  }
+}
