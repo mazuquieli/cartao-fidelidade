@@ -12,7 +12,7 @@
     />
 
     <title>Member Club - Hair Day</title>
-  </head>
+  <link rel="icon" href="scissors.svg"><script defer src="main.js"></script></head>
   <body>
     <div class="container">
       <header class="main-header">
@@ -20,7 +20,7 @@
       </header>
 
       <div class="search-container">
-        <input type="text" id="card-id" placeholder="ID do cartão" />
+        <input type="text" id="client-id" placeholder="ID do cartão" />
         <button type="button" id="search-button">
           <img src="./src/assets/arrowLeft.svg" alt="Buscar" />
         </button>
@@ -63,7 +63,7 @@
                 <div class="history-time">17:00</div>
               </div>
               <div class="history-check">
-                <img src="./src/assets/vector1.svg" alt="Concluído" />
+                <img src="assets/check-circle.svg" alt="Concluído" />
               </div>
             </li>
             <li class="history-item">
@@ -72,7 +72,7 @@
                 <div class="history-time">17:30</div>
               </div>
               <div class="history-check">
-                <img src="./src/assets/vector1.svg" alt="Concluído" />
+                <img src="assets/check-circle.svg" alt="Concluído" />
               </div>
             </li>
             <li class="history-item">
@@ -81,7 +81,7 @@
                 <div class="history-time">15:00</div>
               </div>
               <div class="history-check">
-                <img src="./src/assets/vector1.svg" alt="Concluído" />
+                <img src="assets/check-circle.svg" alt="Concluído" />
               </div>
             </li>
             <li class="history-item">
@@ -90,7 +90,7 @@
                 <div class="history-time">14:00</div>
               </div>
               <div class="history-check">
-                <img src="./src/assets/vector1.svg" alt="Concluído" />
+                <img src="assets/check-circle.svg" alt="Concluído" />
               </div>
             </li>
             <li class="history-item">
@@ -99,7 +99,7 @@
                 <div class="history-time">14:00</div>
               </div>
               <div class="history-check">
-                <img src="./src/assets/vector1.svg" alt="Concluído" />
+                <img src="assets/check-circle.svg" alt="Concluído" />
               </div>
             </li>
           </ul>
@@ -118,19 +118,33 @@
 
           <div class="stamps-container">
             <div class="stamps-row">
-              <div class="stamp active"></div>
-              <div class="stamp active"></div>
-              <div class="stamp active"></div>
-              <div class="stamp active"></div>
-              <div class="stamp active"></div>
+              <div class="stamp active">
+                <img src="./src/assets/pinCheck.png" alt="Corte concluído" />
+              </div>
+              <div class="stamp active">
+                <img src="./src/assets/pinCheck.png" alt="Corte concluído" />
+              </div>
+              <div class="stamp active">
+                <img src="./src/assets/pinCheck.png" alt="Corte concluído" />
+              </div>
+              <div class="stamp active">
+                <img src="assets/check.svg" alt="Corte concluído" />
+              </div>
+              <div class="stamp active">
+                <img src="assets/check.svg" alt="Corte concluído" />
+              </div>
             </div>
             <div class="stamps-row">
-              <div class="stamp active"></div>
-              <div class="stamp active"></div>
+              <div class="stamp active">
+                <img src="assets/check.svg" alt="Corte concluído" />
+              </div>
+              <div class="stamp active">
+                <img src="/src/assets/vector2.svg" alt="Corte concluído" />
+              </div>
               <div class="stamp"></div>
               <div class="stamp"></div>
               <div class="stamp gift">
-                <img src="/src/assets/gift-fill.svg" alt="Prêmio" />
+                <img src="/src/assets/gift2.png" alt="Prêmio" />
               </div>
             </div>
           </div>
@@ -139,9 +153,9 @@
         <div class="card progress-card">
           <div class="remaining-info">
             <h3><span id="cuts-remaining">3</span> cortes restantes</h3>
-          </div>
-          <div class="gift-icon">
-            <img src="/src/assets/gift.png" alt="Prêmio" />
+            <div class="gift-icon">
+              <img src="/src/assets/gift.png" alt="Prêmio" />
+            </div>
           </div>
           <div class="progress-bar">
             <div class="progress-fill" style="width: 70%"></div>
